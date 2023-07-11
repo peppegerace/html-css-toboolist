@@ -6,13 +6,14 @@
 
 body{
   font-size: 20px;
-  background-color: lightgrey;
+  background-color: #f6f8f9 ;
 }
 
 /* HEADER */
 header{
   background-color: white;
   padding: 10px 20px;
+  margin-bottom: 50px;
 }
 
 header img, header h1{
@@ -22,3 +23,30 @@ header img, header h1{
 }
 
 /* MAIN */
+main{
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+section{
+  border-bottom: 2px solid #f6f8f9;
+  padding: 20px 50px;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.task{
+  background-color: #47adf1;
+  color: white;
+  border: solid #47adf1;
+}
+
+.section{
+  background-color: white;
+  color: lightgray;
+  border: solid lightgray;
+}
