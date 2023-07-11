@@ -5,7 +5,6 @@
 }
 
 body{
-  font-size: 20px;
   background-color: #f6f8f9 ;
 }
 
@@ -14,6 +13,7 @@ header{
   background-color: white;
   padding: 10px 20px;
   margin-bottom: 50px;
+  font-size: 20px;
 }
 
 header img, header h1{
@@ -50,3 +50,36 @@ button{
   color: lightgray;
   border: solid lightgray;
 }
+
+ul {
+  list-style-type: none;
+  }
+
+.check, .cross{
+  display: inline-block;
+  border-radius: 50% 50%;
+  border: 1px solid;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.check{
+  color: #64c0a9;
+ }
+
+.cross{
+  color: red;
+ }
+
+ .box{
+  padding: 3px;
+  font-size: 12px;
+  color: white;
+  border-radius: 10px;
+ }
+
+.blue{
+  background-color: #47adf1;
+ }
