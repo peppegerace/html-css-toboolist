@@ -41,6 +41,7 @@ section{
 button{
   padding: 5px 10px;
   border-radius: 5px;
+  /* cursor: pointer; */
 }
 
 .task{
@@ -59,6 +60,7 @@ button{
 ul {
   list-style-type: none;
   }
+
 li{
   margin-bottom: 15px;
 }
@@ -68,7 +70,7 @@ h3{
 }
 
 /* style entity code */
-.check, .cross{
+.circle{
   display: inline-block;
   border-radius: 50% 50%;
   border: 1px solid;
